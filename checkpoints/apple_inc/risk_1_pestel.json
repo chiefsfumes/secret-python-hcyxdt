@@ -1,0 +1,40 @@
+{
+  "risk_id": "1",
+  "political": {
+    "explanation": "Increased extreme weather events can lead to political instability and changes in regulations around disaster preparedness and response.",
+    "potential_impacts": "Apple may face disruptions in its supply chain, impacting product availability and sales.",
+    "opportunities_challenges": "There may be opportunities for Apple to engage in lobbying for favorable disaster management policies but challenges in compliance with new regulations.",
+    "significance": "Moderate"
+  },
+  "economic": {
+    "explanation": "Extreme weather events can lead to economic downturns in affected regions, impacting consumer spending.",
+    "potential_impacts": "Reduced sales in affected areas and increased costs for product repairs and infrastructure improvements.",
+    "opportunities_challenges": "Potential opportunity in selling resilient products but facing challenges in maintaining profitability during economic downturns.",
+    "significance": "High"
+  },
+  "social": {
+    "explanation": "Social attitudes towards climate change and environmental responsibility are evolving, impacting consumer preferences.",
+    "potential_impacts": "Shifts in consumer behavior may affect demand for Apple's products if they are perceived as environmentally unfriendly.",
+    "opportunities_challenges": "Opportunity to enhance brand image by promoting sustainability initiatives; challenge of meeting rising consumer expectations.",
+    "significance": "High"
+  },
+  "technological": {
+    "explanation": "Technological advancements can help mitigate risks associated with extreme weather, such as improved infrastructure and disaster recovery solutions.",
+    "potential_impacts": "Investment in technology for disaster resilience may be necessary, impacting R&D budgets.",
+    "opportunities_challenges": "Opportunity to innovate with new technologies for resilience but challenge of integrating these technologies effectively.",
+    "significance": "Moderate"
+  },
+  "environmental": {
+    "explanation": "The increasing frequency of extreme weather events directly relates to environmental factors and climate change.",
+    "potential_impacts": "Apple may face increased scrutiny regarding its environmental impact and sustainability practices.",
+    "opportunities_challenges": "Opportunity to lead in environmental sustainability and innovation; challenge of addressing environmental criticisms.",
+    "significance": "Very High"
+  },
+  "legal": {
+    "explanation": "Extreme weather may lead to new legal regulations focused on environmental protection and corporate responsibility.",
+    "potential_impacts": "Increased compliance costs and potential liabilities related to environmental damages.",
+    "opportunities_challenges": "Opportunity to influence new regulations positively; challenge of navigating complex legal landscapes.",
+    "significance": "Moderate"
+  },
+  "overall_assessment": "Increased frequency of extreme weather events presents significant challenges for Apple Inc. across multiple PESTEL factors, particularly in economic, social, and environmental domains. However, it also offers opportunities for innovation and leadership in sustainability."
+}

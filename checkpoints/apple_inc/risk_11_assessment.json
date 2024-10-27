@@ -1,0 +1,7 @@
+{
+  "risk_id": "11",
+  "entity_name": "iPhone Hardware",
+  "likelihood": 0.6,
+  "impact": 0.6,
+  "explanation": "Changes in consumer preferences are likely to affect the iPhone Hardware entity as consumer trends evolve rapidly in the technology sector. The likelihood of this risk occurring is assessed as probable (50-75% chance) due to the competitive landscape and shifting consumer demands towards new features or alternatives. The impact is also moderate, as significant shifts in preferences could require Apple to adapt its hardware development strategies and product offerings to stay relevant in the market."
+}

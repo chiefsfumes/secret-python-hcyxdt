@@ -1,0 +1,7 @@
+{
+  "risk_id": "10",
+  "entity_name": "iPhone Hardware",
+  "likelihood": 0.4,
+  "impact": 0.6,
+  "explanation": "Biodiversity loss can impact the availability of critical raw materials used in iPhone hardware production, such as rare earth elements and metals. This risk is possible given current environmental challenges, and its impact could be moderate to major, as it may necessitate alterations in supply chain management and sourcing strategies to ensure material availability."
+}

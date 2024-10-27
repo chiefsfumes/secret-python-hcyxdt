@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Risk Assessment Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        h1, h2, h3, h4 { color: #2c3e50; margin-top: 1.5em; }
+        .summary { background-color: #f0f0f0; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        .entity-section { border: 1px solid #ddd; padding: 20px; margin: 20px 0; border-radius: 5px; }
+        .risk-category { margin-bottom: 20px; }
+        .scenario { margin-bottom: 30px; }
+        table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .cross-entity-section { background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Climate Risk Assessment Report</h1>
+    
+    <div class="summary">
+        <h2>Executive Summary</h2>
+        {{ report.executive_summary | safe }}
+    </div>
+
+    <h2>Entity Reports</h2>
+    {% for entity_name, entity_report in report.entity_reports.items() %}
+    <div class="entity-section">
+        <h3>{{ entity_name }}</h3>
+        
+        <h4>Risk Overview</h4>
+        <p>Total Risks: {{ entity_report.risk_overview.total_risks }}</p>
+        
+        <h4>High Impact Risks</h4>
+        <ul>
+            {% for risk in entity_report.risk_overview.high_impact_risks %}
+                <li>Risk {{ risk.id }}: {{ risk.description }} (Impact: {{ "%.2f"|format(risk.impact) }})</li>
+            {% endfor %}
+        </ul>
+
+        <h4>Scenario Analysis</h4>
+        {% for scenario, data in entity_report.scenario_analysis.items() %}
+            <div class="scenario">
+                <h5>{{ scenario }}</h5>
+                {{ data.summary | safe }}
+                <table>
+                    <tr>
+                        <th>Risk ID</th>
+                        <th>Impact</th>
+                    </tr>
+                    {% for impact in data.detailed_impacts[:5] %}
+                        <tr>
+                            <td>{{ impact.risk_id }}</td>
+                            <td>{{ "%.2f"|format(impact.impact) }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        {% endfor %}
+
+        <h4>Monte Carlo Results</h4>
+        <table>
+            <tr>
+                <th>Risk ID</th>
+                <th>Mean Impact</th>
+                <th>95th Percentile</th>
+            </tr>
+            {% for risk_id, results in entity_report.monte_carlo_results.items() %}
+                <tr>
+                    <td>{{ risk_id }}</td>
+                    <td>{{ "%.2f"|format(results.mean_impact) }}</td>
+                    <td>{{ "%.2f"|format(results["95th_percentile_impact"]) }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h4>Systemic Risks</h4>
+        <ul>
+            {% for risk_id, risk_info in entity_report.systemic_risks.items() %}
+                <li>{{ risk_info.description }} (Impact: {{ "%.2f"|format(risk_info.impact) }})</li>
+            {% endfor %}
+        </ul>
+
+        <h4>Resilience Assessment</h4>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Score</th>
+            </tr>
+            {% for metric, score in entity_report.resilience_assessment.items() %}
+                <tr>
+                    <td>{{ metric }}</td>
+                    <td>{{ "%.2f"|format(score) }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h4>Executive Insights</h4>
+        {{ entity_report.executive_insights | safe }}
+    </div>
+    {% endfor %}
+
+    <h2>Cross-Entity Analysis</h2>
+    <div class="cross-entity-section">
+        <h3>Risk Comparison</h3>
+        <table>
+            <tr>
+                <th>Entity</th>
+                <th>Total Risks</th>
+                <th>High Impact Risks</th>
+            </tr>
+            {% for entity, comparison in report.cross_entity_analysis.risk_comparison.items() %}
+                <tr>
+                    <td>{{ entity }}</td>
+                    <td>{{ comparison.total_risks }}</td>
+                    <td>{{ comparison.high_impact_risks }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Aggregate Impact Comparison</h3>
+        <table>
+            <tr>
+                <th>Entity</th>
+                <th>Mean Impact</th>
+                <th>95th Percentile</th>
+            </tr>
+            {% for entity, impact in report.cross_entity_analysis.aggregate_impact_comparison.items() %}
+                <tr>
+                    <td>{{ entity }}</td>
+                    <td>{{ "%.2f"|format(impact.mean) }}</td>
+                    <td>{{ "%.2f"|format(impact["95th_percentile"]) }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Common Risks Across Entities</h3>
+        <ul>
+            {% for risk in report.cross_entity_analysis.common_risks %}
+                <li>{{ risk }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

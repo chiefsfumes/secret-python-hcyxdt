@@ -1,0 +1,124 @@
+{
+  "1_10": {
+    "interaction_score": {
+      "score": 0.7,
+      "confidence": 0.8
+    },
+    "interaction_explanation": "The interaction between increased frequency of extreme weather events and biodiversity loss is significant for Apple Inc. due to its reliance on a stable supply chain for raw materials and components. Extreme weather can disrupt supply chains, while biodiversity loss can affect the availability of essential materials like rare metals used in electronics.",
+    "compounding_effects": [
+      {
+        "effect": "Supply chain disruptions due to extreme weather may exacerbate resource scarcity resulting from biodiversity loss.",
+        "severity": "High"
+      },
+      {
+        "effect": "Increased operational costs related to sourcing alternatives for raw materials affected by biodiversity loss.",
+        "severity": "Medium"
+      }
+    ],
+    "mitigating_factors": [
+      {
+        "factor": "Diversification of suppliers and materials",
+        "effectiveness": "High"
+      },
+      {
+        "factor": "Investment in sustainable practices and technologies",
+        "effectiveness": "Medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Conduct a comprehensive risk assessment focusing on supply chain vulnerabilities",
+        "priority": "High",
+        "scope": "Global"
+      },
+      {
+        "action": "Enhance partnerships with suppliers focused on sustainable resource management",
+        "priority": "Medium",
+        "scope": "Regional"
+      },
+      {
+        "action": "Invest in R&D for alternative materials to mitigate reliance on affected resources",
+        "priority": "Medium",
+        "scope": "Global"
+      }
+    ]
+  },
+  "1_11": {
+    "interaction_score": {
+      "score": 0.7,
+      "confidence": 0.8
+    },
+    "interaction_explanation": "Increased frequency of extreme weather events can disrupt supply chains and manufacturing processes, leading to delays in product availability. This disruption may exacerbate shifts in consumer preferences towards more sustainable and resilient products, thereby impacting Apple Inc.'s strategy and market position. The technology industry is particularly sensitive to both physical disruptions and changing consumer expectations, creating a significant interaction between these risks.",
+    "compounding_effects": [
+      {
+        "effect": "Supply chain disruptions leading to product shortages",
+        "severity": "High"
+      },
+      {
+        "effect": "Increased consumer demand for sustainable products",
+        "severity": "Medium"
+      }
+    ],
+    "mitigating_factors": [
+      {
+        "factor": "Diversification of supply chain",
+        "effectiveness": "High"
+      },
+      {
+        "factor": "Investment in sustainable product development",
+        "effectiveness": "Medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Enhance supply chain resilience through diversification and localized sourcing",
+        "priority": "High",
+        "scope": "Global"
+      },
+      {
+        "action": "Accelerate the development of environmentally friendly products",
+        "priority": "Medium",
+        "scope": "Product Line"
+      }
+    ]
+  },
+  "10_11": {
+    "interaction_score": {
+      "score": 0.7,
+      "confidence": 0.8
+    },
+    "interaction_explanation": "Biodiversity loss can lead to resource scarcity, affecting the availability of materials essential for Apple Inc.'s products, such as metals for electronics. Simultaneously, changes in consumer preferences towards sustainability may increase demand for ethically sourced and environmentally friendly products. This creates tension between resource availability and market expectations, amplifying both risks.",
+    "compounding_effects": [
+      {
+        "effect": "Increased pressure on supply chains due to scarcity of sustainable materials",
+        "severity": "High"
+      },
+      {
+        "effect": "Potential loss of market share if consumer preferences shift significantly towards sustainable alternatives",
+        "severity": "Medium"
+      }
+    ],
+    "mitigating_factors": [
+      {
+        "factor": "Investment in sustainable sourcing and recycling technologies",
+        "effectiveness": "High"
+      },
+      {
+        "factor": "Brand reputation management and consumer engagement initiatives",
+        "effectiveness": "Medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Develop a comprehensive sustainability strategy that addresses biodiversity and consumer preferences",
+        "priority": "High",
+        "scope": "Global"
+      },
+      {
+        "action": "Collaborate with suppliers to ensure sustainable sourcing of materials",
+        "priority": "Medium",
+        "scope": "Supply Chain"
+      }
+    ]
+  }
+}

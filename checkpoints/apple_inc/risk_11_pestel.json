@@ -1,0 +1,40 @@
+{
+  "risk_id": "11",
+  "political": {
+    "explanation": "Changes in consumer preferences can influence political decisions regarding technology regulations and trade policies that affect Apple.",
+    "potential_impacts": "Potential shifts in political support for regulations affecting consumer electronics could change market dynamics.",
+    "opportunities_challenges": "Apple may face challenges in adapting to new regulations influenced by consumer preferences but could also leverage favorable policies promoting innovation.",
+    "significance": "Moderate"
+  },
+  "economic": {
+    "explanation": "Economic factors such as disposable income and consumer spending significantly affect consumer preferences for technology products.",
+    "potential_impacts": "A decline in consumer spending may lead to decreased sales of Apple products, affecting revenue.",
+    "opportunities_challenges": "Economic downturns could challenge Apple, while emerging markets with rising disposable income may present new opportunities.",
+    "significance": "High"
+  },
+  "social": {
+    "explanation": "Social trends, including lifestyle changes and values regarding sustainability, directly influence consumer preferences.",
+    "potential_impacts": "If Apple fails to align with social trends, it may lose market share to competitors that better meet consumer demands.",
+    "opportunities_challenges": "Aligning with social trends can open up new market segments for Apple, particularly in sustainability-focused products.",
+    "significance": "Very High"
+  },
+  "technological": {
+    "explanation": "Rapid technological advancements can shift consumer preferences towards newer, more sophisticated products.",
+    "potential_impacts": "Failure to innovate may lead to loss of relevance in the market as consumer preferences shift towards competitors with cutting-edge technology.",
+    "opportunities_challenges": "Technological advancements also present opportunities for Apple to lead in innovation and capture changing consumer interests.",
+    "significance": "High"
+  },
+  "environmental": {
+    "explanation": "Consumer preferences increasingly favor environmentally friendly products, impacting purchasing decisions.",
+    "potential_impacts": "Failure to meet environmental expectations could result in negative consumer perception and lower sales.",
+    "opportunities_challenges": "Apple can capitalize on this trend by promoting sustainable practices and products, enhancing brand loyalty.",
+    "significance": "High"
+  },
+  "legal": {
+    "explanation": "Legal frameworks surrounding consumer rights and product safety can influence consumer preferences and purchasing decisions.",
+    "potential_impacts": "Changes in laws may require Apple to adapt its products and marketing strategies, impacting operational costs.",
+    "opportunities_challenges": "Compliance with legal standards can enhance consumer trust and loyalty, but may also present challenges in product development.",
+    "significance": "Moderate"
+  },
+  "overall_assessment": "The risk of changes in consumer preferences is significant for Apple Inc., particularly due to the high impact of social and technological factors. Apple must continuously innovate and align with consumer values to maintain its market position."
+}

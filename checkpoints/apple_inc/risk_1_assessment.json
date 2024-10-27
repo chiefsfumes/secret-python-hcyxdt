@@ -1,0 +1,7 @@
+{
+  "risk_id": "1",
+  "entity_name": "iPhone Hardware",
+  "likelihood": 0.6,
+  "impact": 0.4,
+  "explanation": "The likelihood of increased frequency of extreme weather events affecting Apple Inc.'s iPhone Hardware entity is assessed as likely (0.6) due to the growing incidence of climate change-related events globally, which can disrupt supply chains, manufacturing, and logistics. The impact is considered moderate (0.4) as while these events can cause noticeable disruptions, the entity has established contingency plans and diversified supply chains to manage such risks effectively."
+}

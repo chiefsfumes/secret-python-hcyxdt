@@ -1,0 +1,40 @@
+{
+  "risk_id": "10",
+  "political": {
+    "explanation": "Governments may impose stricter regulations on resource extraction and usage due to biodiversity concerns, impacting supply chains.",
+    "potential_impacts": "Increased costs and potential shortages of critical materials for manufacturing, affecting production schedules.",
+    "opportunities_challenges": "Apple could advocate for sustainable sourcing practices, enhancing its brand reputation, but may face challenges adapting to new regulations.",
+    "significance": "High"
+  },
+  "economic": {
+    "explanation": "Biodiversity loss can lead to scarcity of resources, driving up prices and affecting profitability.",
+    "potential_impacts": "Increased costs for raw materials may impact profit margins and pricing strategies for products.",
+    "opportunities_challenges": "Investing in alternative materials or sustainable resources could create a competitive advantage, but transition costs may be significant.",
+    "significance": "Moderate"
+  },
+  "social": {
+    "explanation": "Consumers are increasingly concerned about sustainability, and biodiversity loss may shift preferences towards eco-friendly products.",
+    "potential_impacts": "Failure to address biodiversity issues could harm brand loyalty and market share among environmentally conscious consumers.",
+    "opportunities_challenges": "Apple can leverage this trend by promoting sustainable practices and products, but it must genuinely commit to these initiatives.",
+    "significance": "High"
+  },
+  "technological": {
+    "explanation": "Technological innovation may be required to develop alternative materials or processes that minimize biodiversity impacts.",
+    "potential_impacts": "Investment in R&D for sustainable technologies could strain resources but may also lead to new product lines.",
+    "opportunities_challenges": "Innovating in sustainable technology could set Apple apart as a leader in the industry, though the initial investment may be high.",
+    "significance": "Moderate"
+  },
+  "environmental": {
+    "explanation": "The direct relationship between biodiversity and environmental stability makes this a critical concern for sustainable operations.",
+    "potential_impacts": "Biodiversity loss may disrupt ecosystems essential for sourcing raw materials, impacting supply chains and operational continuity.",
+    "opportunities_challenges": "Apple can enhance its sustainability initiatives, which may improve its environmental footprint and attract eco-conscious consumers, but it also faces scrutiny over its environmental practices.",
+    "significance": "Very High"
+  },
+  "legal": {
+    "explanation": "Legal frameworks may evolve to protect biodiversity, leading to stricter regulations on production and resource use.",
+    "potential_impacts": "Non-compliance with evolving regulations could lead to legal penalties and damage to Apple's reputation.",
+    "opportunities_challenges": "Proactively engaging with regulatory bodies can help Apple shape favorable policies, but the risk of non-compliance remains a significant concern.",
+    "significance": "High"
+  },
+  "overall_assessment": "Biodiversity loss poses significant risks across multiple PESTEL factors for Apple Inc., particularly in environmental and political areas. Addressing these risks through sustainable practices could provide opportunities but requires substantial commitment and investment."
+}
